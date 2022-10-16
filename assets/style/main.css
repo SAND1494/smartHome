@@ -317,6 +317,7 @@ form.reg input[type="submit"] {
     border: 1px solid #9b9b9b;
     padding: 6px 14px;
     border-radius: 4px;
+    color: #000;
 }
 .footer-bottom {
     background: #000f38;

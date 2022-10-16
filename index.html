@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Smart Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link href="assets/style/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="header" class="fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark py-3 ">
+        <div class="container">
+
+          <div class="row w-100 justify-content-between">
+            <a class="navbar-brand d-block d-lg-none" href="#">smartHome</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="col-lg-4 col-md-12">
+              <ul class="navbar-nav mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4 text-center d-none d-lg-block">
+              <a class="navbar-brand" href="#">smartHome</a>
+            </div>
+            <div class="col-lg-4 col-xs-12">
+              <div class="loged d-flex justify-content-md-end justify-content-xs-start">
+                <button type="button" class="btn btn-link px-4">Login</button>
+                <button class="btn btn-light px-4 py-2" type="button">Sign up</button>
+              </div>
+            </div>
+          </div>
+          </div>
+          
+        </div>
+      </nav>
+    </div>
+    
+    <section id="hero">
+      <div class="container">
+        <div class="row">
+          <div data-aos="fade-zoom-in" class="text-center w-75 mx-auto pt-4">
+            <h1>Smart Home<br> Application</h1>
+            <p class="w-75 mx-auto pt-4">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          </div>
+          <div data-aos="fade-up" data-aos-delay="150" class="mobscrn text-center pt-4">
+            <img src="assets/images/mob-screen.png" alt="images" />
+            <a class='arrow' href="#client"><i class="bi bi-arrow-down"></i></a>
+            <div class="download-icon text-center d-block p-5">
+              <img class="w-auto " src="assets/images/icon.png" alt="images" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="space"></div>
+        
+        <h2 data-aos="fade-zoom-in"  class="text-center">About us</h2>
+        <div class="row pt-5">
+          <div class="col-md-6 px-lg-5">
+            <div  class="block-image d-flex justify-content-center  ">
+              <img data-aos="fade-zoom-in" data-aos-easing="ease-in-sine" class="w-auto " src="assets/images/mob-temp.png" alt="images" />
+            </div>
+          </div>
+          <div class="col-md-6 d-flex flex-column justify-content-center align-items-stretch px-lg-5 mt-xs-4">
+            <div data-aos="fade-left"   class="block-content ">
+              <h3>Smart Home's Smart Services</h3>
+              <p class=" py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, temporibus maxime! Porro cupiditate explicabo numquam nobis mollitia nemo provident hic dignissimos eos, excepturi ratione earum possimus laudantium officiis eligendi voluptatem.</p>
+              <button class="btn btn-outline-dark px-4 py-2" type="button">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 d-flex flex-column justify-content-center align-items-stretch px-lg-5 order-2 order-lg-1">
+            <div data-aos="fade-right"  class="block-content px-1">
+              <h3>What app can do to your Appliences?</h3>
+              <p class=" py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, temporibus maxime! Porro cupiditate explicabo numquam nobis mollitia nemo provident hic dignissimos eos, excepturi ratione earum possimus laudantium officiis eligendi voluptatem.</p>
+              <button class="btn btn-outline-dark px-4 py-2" type="button">Learn More</button>
+            </div>
+          </div>
+          <div class="col-md-6 px-lg-5 order-1 order-lg-2">
+            <div class="block-image d-flex justify-content-center  ">
+              <img data-aos="fade-zoom-in" data-aos-easing="ease-in-sine" class="w-auto " src="assets/images/mob-room.png" alt="images" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 px-lg-5">
+            <div class="block-image d-flex justify-content-center  ">
+              <img data-aos="fade-zoom-in" data-aos-easing="ease-in-sine" class="w-auto " src="assets/images/mob-energy.png" alt="images" />
+            </div>
+          </div>
+          <div class="col-md-6 d-flex flex-column justify-content-center align-items-stretch px-lg-5">
+            <div data-aos="fade-left"   class="block-content px-1">
+              <h3>Control Electric Appliences?</h3>
+              <p class=" py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, temporibus maxime! Porro cupiditate explicabo numquam nobis mollitia nemo provident hic dignissimos eos, excepturi ratione earum possimus laudantium officiis eligendi voluptatem.</p>
+              <button class="btn btn-outline-dark px-4 py-2" type="button">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="client" class="py-5 mt-4">
+      <div class="container">
+        <h2 data-aos="fade-zoom-in"  data-aos-duration="2000" class="text-center">Our Clients</h2>
+        <p data-aos="fade-zoom-in"  data-aos-duration="2000" class="w-50 mx-auto text-center pt-4">Expedita voluptates facere vel cum nesciunt dolore totam odit deserunt eaque dicta! Ducimus nobis sint assumenda a dolore? Quos deserunt vitae non.</p>
+        <div data-aos="fade-up"  data-aos-duration="2000" class="row pt-4">
+          <div class="col-md-4 col-lg-3"><img class="w-auto " src="assets/images/brand/b1.jpg" alt="images" /></div>
+          <div class="col-md-4 col-lg-3"><img class="w-auto " src="assets/images/brand/b2.jpg" alt="images" /></div>
+          <div class="col-md-4 col-lg-3"><img class="w-auto " src="assets/images/brand/b3.jpg" alt="images" /></div>
+          <div class="col-md-4 col-lg-3"><img class="w-auto " src="assets/images/brand/b4.jpg" alt="images" /></div>
+          <div class="col-md-4 col-lg-3"><img class="w-auto " src="assets/images/brand/b5.jpg" alt="images" /></div>
+          <div class="col-md-4 col-lg-3"><img class="w-auto " src="assets/images/brand/b6.jpg" alt="images" /></div>
+          <div class="col-md-4 col-lg-3"><img class="w-auto " src="assets/images/brand/b7.jpg" alt="images" /></div>
+          <div class="col-md-4 col-lg-3"><img class="w-auto " src="assets/images/brand/b8.jpg" alt="images" /></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonial" class="py-5 mt-4">
+      <div class="container">
+        <h2 data-aos="fade-zoom-in"  data-aos-duration="2000" class="text-center">Testimonials</h2>
+        <p data-aos="fade-zoom-in"  data-aos-duration="2000" class="w-50 mx-auto text-center pt-4">Expedita voluptates facere vel cum nesciunt dolore totam odit deserunt eaque dicta! Ducimus nobis sint assumenda a dolore? Quos deserunt vitae non.</p>
+        <div class="row pt-4">
+          <div data-aos="fade-up"  data-aos-duration="2000" class="col-md-6 my-3">
+            <div class="review">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto voluptatibus ipsum minus alias sit quis dolores, amet nemo placeat dolorem quaerat omnis rem perferendis quidem, hic atque dignissimos sed at!</p>
+              <div class="inner-block d-flex">
+                <img class="me-3" src="assets/images/jenny.jpg" alt="user">
+                <div class="user-info">
+                  <h5>Jenny</h5>
+                  <span>Product Designer - Besnik</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up"   class="col-md-6 my-3">
+            <div class="review">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto voluptatibus ipsum minus alias sit quis dolores, amet nemo placeat dolorem quaerat omnis rem perferendis quidem, hic atque dignissimos sed at!</p>
+              <div class="inner-block d-flex">
+                <img class="me-3" src="assets/images/jenny.jpg" alt="user">
+                <div class="user-info">
+                  <h5>Jenny</h5>
+                  <span>Product Designer - Besnik</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up"   class="col-md-6 my-3">
+            <div class="review">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto voluptatibus ipsum minus alias sit quis dolores, amet nemo placeat dolorem quaerat omnis rem perferendis quidem, hic atque dignissimos sed at!</p>
+              <div class="inner-block d-flex">
+                <img class="me-3" src="assets/images/jenny.jpg" alt="user">
+                <div class="user-info">
+                  <h5>Jenny</h5>
+                  <span>Product Designer - Besnik</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up"   class="col-md-6 my-3">
+            <div class="review">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto voluptatibus ipsum minus alias sit quis dolores, amet nemo placeat dolorem quaerat omnis rem perferendis quidem, hic atque dignissimos sed at!</p>
+              <div class="inner-block d-flex">
+                <img class="me-3" src="assets/images/jenny.jpg" alt="user">
+                <div class="user-info">
+                  <h5>Jenny</h5>
+                  <span>Product Designer - Besnik</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="py-5 my-5">
+      <div class="container">
+        <h2 data-aos="fade-zoom-in"   class="text-center">FAQ's</h2>
+        <div class="accordion mx-auto" id="accordionExample">
+          <div data-aos="fade-up"  data-aos-duration="2000" class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up"   class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up"   class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up"   class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Accordion Item #4
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="downloadapp" class="my-5 py-5">
+      <div class="container">
+        <div class="row">
+          <div data-aos="fade-right"  data-aos-easing="ease-in-sine" class="col-md-5 d-flex flex-column justify-content-center align-items-stretch ">
+            <div class="block-content px-1">
+              <h2>Download App</h2>
+              <p class=" py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, temporibus maxime! Porro cupiditate explicabo numquam nobis mollitia nemo provident hic dignissimos eos, excepturi ratione earum possimus laudantium officiis eligendi voluptatem.</p>
+              <img class="w-auto " src="assets/images/icon.png" alt="images" />
+            </div>
+          </div>
+          <div class="col-md-7 ">
+            <div data-aos="fade-left" data-aos-duration="500" class="block-image1 d-flex justify-content-end  ">
+              <img  class="w-auto " src="assets/images/mob-room.png" alt="images" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="subscribe" class="my-5">
+      <div class="container">
+        <div data-aos="fade-up" data-aos-duration="500" class="subscribe-block">
+          <div class="content">
+            <h3>Subscribe to get updated</h3>
+            <p class="w-75">Neque, omnis facere saepe nesciunt tempora nulla aut ad, eligendi eos praesentium provident quis rem, illum at! Placeat doloribus debitis nulla a.</p>
+          </div>
+          <div class="w-25 d-flex flex-column justify-content-center align-items-stretch">
+            <button type="button" class="btn btn-outline-light py-3">Get start</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+  
+      <div class="footer-top py-5">
+        <div class="container">
+          <div class="row">
+  
+            <div class="col-lg-4 col-md-6 footer-contact ">
+              <h2>smartHome</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat praesentium porro nemo.</p>
+              <form class="reg">
+                <input type="email" name="email" placeholder="Email Address">
+                <input type="submit" value="Register">
+              </form>
+            </div>
+  
+            <div class="col-lg-3 col-md-6 footer-links ">
+              <h4>Categories</h4>
+              <ul class="list-unstyled">
+                <li> <a href="#">Product Management</a></li>
+                <li> <a href="#">Design / Creative</a></li>
+                <li> <a href="#">Services</a></li>
+                <li> <a href="#">UI/UX Designer</a></li>
+                <li> <a href="#">Terms of service</a></li>
+                <li> <a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>About</h4>
+              <ul class="list-unstyled">
+                <li> <a href="#">About Us</a></li>
+                <li> <a href="#">Partnership</a></li>
+                <li> <a href="#">Finance Experts</a></li>
+                <li> <a href="#">Project Management</a></li>
+                <li> <a href="#">Product Manager</a></li>
+                <li> <a href="#">The Team</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Follow Us</h4>
+              <div class="social-links mt-3">
+                <ul class="list-unstyled">
+                  <li><a href="#" class="facebook">Facebook</a></li>
+                  <li><a href="#" class="instagram">Instagram</a></li>
+                  <li><a href="#" class="twitter">Twitter</a></li>
+                  <li><a href="#" class="linkedin">Linkedin</a></li>
+                </ul>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+  
+      <div class="footer-bottom  p-4">
+        <div class="copyright text-center">
+           Copyright &copy; 2022 All Rights Reserved <strong><span>smartHome</span></strong>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 1000,
+        disable: function() {
+          var maxWidth = 992;
+          return window.innerWidth < maxWidth;
+        }
+      });
+    </script>
+  </body>
+</html>
